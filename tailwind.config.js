@@ -7,7 +7,7 @@ module.exports = {
 	],
 	theme: {
 		fontFamily: {
-			Secular: ['Secular One', 'sans-serif'],
+			// Secular: ['Secular One', 'sans-serif'],
 
 		},
 		extend: {
