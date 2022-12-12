@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+@font-face {
+  font-family: "Gopher-black";
+  src: url('../font/Gopher-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gopher-black";
+  src: url('../font/Gopher-Regular.eot');
+  font-weight: normal;
+  font-style: normal;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'Secular One', sans-serif;
+  font-family: Gopher-black;
 }
 .home{
-  background: linear-gradient(110deg, #fff 60%, #305349 60%);
+  background: linear-gradient(110deg, #F6F6F6 60%, #305349 60%);
 
 }

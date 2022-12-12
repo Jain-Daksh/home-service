@@ -8,6 +8,7 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			// Secular: ['Secular One', 'sans-serif'],
+			Gopher:['Gopher-black']
 
 		},
 		extend: {
