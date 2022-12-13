@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const ImageContainer = (props) => {
-  const { classes = "w-40 h-40", alt = "home-service" } = props;
+  const { classes = "w-14 h-14", alt = "home-service" } = props;
   return (
     <Image
       className={classes}
