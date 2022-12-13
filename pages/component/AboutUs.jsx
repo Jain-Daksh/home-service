@@ -17,12 +17,12 @@ function AboutUs() {
           alt={"girl"}
         />
       </div>
-      <div className="col-span-4 mt-24">
+      <div className="col-span-5 mt-24">
       <Heading title='ABOUT COMPANY'/>
       <SubHeading subHeading='Keeping Your Home Cleaner'/>
-      <Paragraph paragraph='Our company has been providing professional cleaning services to residents of Minsk region for more than 7 years.Cleaning of aparments,offices and other premises after repair is a direction in which our employees have gained extensive experience'/>
+      <p className='text-xl text-zinc-300 mt-10'>Our company has been providing professional cleaning services to residents of Minsk region for more than 7 years.Cleaning of aparments,offices and other premises after repair is a direction in which our employees have gained extensive experience</p>
       <ImageContainer 
-          classes={"w-64 h-80"}
+          classes={"w-96 h-96 relative image-man"}
        src={Image2} />
       </div>
     </div>

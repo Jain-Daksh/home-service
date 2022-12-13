@@ -23,4 +23,19 @@ body {
   background: linear-gradient(110deg, #F6F6F6 60%, #305349 60%);
 
 }
-
+.img-position{
+  top: 298px;
+  color: transparent;
+  z-index: 1;
+}
+.images-client{
+  z-index: 1;
+}
+.image-man{
+    z-index: 1;
+   top: 106px;
+  left: 245px; 
+}
+.email{
+  margin: 0 130px;
+}
