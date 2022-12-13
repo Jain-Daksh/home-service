@@ -23,7 +23,7 @@ const Homepage = () => {
           </h1>
           <p className='text-xl text-zinc-300 mt-10 '> While you are doing something important, we will <br /> put things in order in the apartment, private <br /> house or office.</p>
 
-          <div className='mt-24'>
+          <div className='mt-8'>
             <Button button="Call Us Today" />
           </div>
         </div>

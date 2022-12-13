@@ -9,6 +9,8 @@ import FooterWebsite from './component/Footer'
 import Work from './component/Work'
 import OurServices from './component/OurServices'
 import AboutUs from './component/AboutUs'
+// import Testimonail from './component/Testimonail'
+import Slider from './component/Testimonail'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
     <OurServices />
     <AboutUs/>
     <Work />
+    {/* <Testimonail /> */}
+    <Slider />
     <ContactUs />
     <FooterWebsite />
  
