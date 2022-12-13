@@ -3,7 +3,7 @@ function FooterWebsite() {
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <div>
+    <div className='container-fluid'>
       {/* <div className="container ">
         <div className="row  pt-5">
         <hr></hr>

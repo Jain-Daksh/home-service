@@ -8,7 +8,7 @@ import Button from './button'
 
 const Homepage = () => {
   return (
-    <div className='home'>
+    <div className='home container-fluid'>
       <Nav />
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
         <div className="mr-auto  lg:col-span-6 xl:mt-48 lg:mt-48">

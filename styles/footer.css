@@ -2,3 +2,8 @@
   text-align: end !important;
   justify-content: end;
 }
+
+.margin-container{
+  margin-left: 3% !important;
+  margin-right: 3% !important;
+}

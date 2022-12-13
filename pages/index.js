@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <>
     <Homepage />
-    <OurTeam />
     <ContactUs />
     <FooterWebsite />
     </>
