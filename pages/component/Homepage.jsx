@@ -9,6 +9,7 @@ import Image2 from '../../assets/images/icons8-starburst-shape-48.png'
 // import Image3 from '../../assets/images/circle.png'
 // import Image3 from '../../assets/images/a211ce69-8ed9-4124-953b-a1f1681775a3.png'
 import Image3 from '../../assets/images/homepage3.png'
+import Images from './Images'
 
 const Homepage = () => {
   return (
@@ -55,6 +56,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <Images />
     </div>
   )
 }

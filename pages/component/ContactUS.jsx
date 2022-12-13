@@ -10,8 +10,8 @@ import ImageContainer from './ImageContainer'
 
 const ContactUs = () => {
   return (
-    <div className='container-fluid'>
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12">
+    <div className='container-fluid     '>
+      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 ">
         <div className="mr-auto  lg:col-span-6 ">
           <h3 className='mb-3 text-heading' itemProp='name'></h3>
           <Heading title="Contact Us" />

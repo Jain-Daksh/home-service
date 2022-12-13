@@ -4,11 +4,11 @@ const OurTeam = () => {
   return (
     <section>
       <div className='container-fluid bg-team h-1/2'>
-        <div className="container my-24 px-6 mx-auto">
-          <div className='mt-24'>
-          <h2 className='mt-24 max-w-2xl mb-4 text-5xl tracking-tight leading-none md:text-5xl xl:text-4xl sm:items-center team-heading'>
-          Meet Cleaning Team
-          </h2>
+        <div className=" py-18 sm:px-8 lg:py-8 lg:px-24">
+          <div className='col-span-2'>
+            <h2 className='mt-24 max-w-2xl mb-4 text-5xl tracking-tight leading-none md:text-5xl xl:text-4xl sm:items-center team-heading'>
+              Meet Cleaning Team
+            </h2>
           </div>
           <div>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6 w-full">
@@ -65,15 +65,15 @@ const OurTeam = () => {
                                 <h1>a</h1>
                               </div>
                             </div>
-                          <div>
-                              
+                            <div>
+
                               <h1>155 review</h1>
                             </div>
                             <div className=''>
                               <h2>30/hr</h2>
                             </div>
                           </div>
-                          
+
                         </div>
                       </div>
                     </div>
@@ -107,15 +107,15 @@ const OurTeam = () => {
                                 <h1>a</h1>
                               </div>
                             </div>
-                          <div>
-                              
+                            <div>
+
                               <h1>155 review</h1>
                             </div>
                             <div className=''>
                               <h2>30/hr</h2>
                             </div>
                           </div>
-                          
+
                         </div>
                       </div>
                     </div>
@@ -179,15 +179,15 @@ const OurTeam = () => {
                                 <h1>a</h1>
                               </div>
                             </div>
-                          <div>
-                              
+                            <div>
+
                               <h1>155 review</h1>
                             </div>
                             <div className=''>
                               <h2>30/hr</h2>
                             </div>
                           </div>
-                          
+
                         </div>
                       </div>
                     </div>
@@ -222,15 +222,15 @@ const OurTeam = () => {
                                 <h1>a</h1>
                               </div>
                             </div>
-                          <div>
-                              
+                            <div>
+
                               <h1>155 review</h1>
                             </div>
                             <div className=''>
                               <h2>30/hr</h2>
                             </div>
                           </div>
-                          
+
                         </div>
                       </div>
                     </div>
@@ -241,7 +241,7 @@ const OurTeam = () => {
                   </div>
                 </a>
               </div>
-              
+
             </div>
           </div>
         </div>

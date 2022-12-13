@@ -12,6 +12,7 @@ import AboutUs from './component/AboutUs'
 // import Testimonail from './component/Testimonail'
 import Slider from './component/Testimonail'
 import OurTeam from './component/OurTeam'
+import Images from './component/Images'
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
     <OurTeam />
     <ContactUs />
     <FooterWebsite />
- 
+ <Images />
     </>
   )
 }

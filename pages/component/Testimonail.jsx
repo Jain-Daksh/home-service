@@ -256,7 +256,7 @@ const Testimonail = () => {
   return (
     <section>
       <div className='container-fluid'>
-        <div className="container my-24 px-6 mx-auto">
+        <div className=" lg:px-24">
           <Heading title='REVIEWS' />
           <SubHeading subHeading="The best client are our client !" />
           <section className="mb-32 mt-24 text-gray-800 text-center">

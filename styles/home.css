@@ -19,6 +19,9 @@
   margin-top: 5% !important;
   margin-bottom: 5%;
 }
+.images-color{
+  background-color: #20313B;
+}
 @media screen and (max-device-width: 700px) {
   .star-1{
     display: none;
