@@ -5,7 +5,7 @@ import ImageContainer from './ImageContainer'
 
 const Images = () => {
   return (
-    <div className='container-fluid images-color lg:px-24'>
+    <div className='container-fluid images-color lg:px-24 relative bottom-24'>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mt-10  mb-10 mx-auto">
         <div className="">
           <ImageContainer
