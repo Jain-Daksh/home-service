@@ -4,3 +4,10 @@
   background: linear-gradient(180deg, #FCE074 60%, #FFFFFF 60%);
 
 }
+
+@media screen and (max-device-width: 630px) {
+  .bg-team{
+    background-color: #FCE074
+  }
+
+}

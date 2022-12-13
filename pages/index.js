@@ -17,16 +17,15 @@ import Images from './component/Images'
 export default function Home() {
   return (
     <>
-    <Homepage />
-    <OurServices />
-    <AboutUs/>
-    <Work />
-    {/* <Testimonail /> */}
-    <Slider />
-    <OurTeam />
-    <ContactUs />
-    <FooterWebsite />
- <Images />
+      <Homepage />
+      <OurServices />
+      <AboutUs />
+      <Work />
+      {/* <Testimonail /> */}
+      <Slider />
+      <OurTeam />
+      <ContactUs />
+      <FooterWebsite />
     </>
   )
 }
