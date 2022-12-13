@@ -27,7 +27,8 @@ const Nav = () => {
     <nav className=" border-gray-200 px-2 sm:px-4 py-2.5 rounded mx-auto px-4 container">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a className="flex items-center">
-            <ImageContainer src={Image1} classes={"w-20 h-20"}/>
+            {/* <ImageContainer src={Image1} classes={"w-20 h-20"}/> */}
+            <h1>Home Services</h1>
           </a>
           <div className="md:hidden">
             <button

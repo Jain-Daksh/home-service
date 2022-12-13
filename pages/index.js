@@ -11,6 +11,7 @@ import OurServices from './component/OurServices'
 import AboutUs from './component/AboutUs'
 // import Testimonail from './component/Testimonail'
 import Slider from './component/Testimonail'
+import OurTeam from './component/OurTeam'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <Work />
     {/* <Testimonail /> */}
     <Slider />
+    <OurTeam />
     <ContactUs />
     <FooterWebsite />
  

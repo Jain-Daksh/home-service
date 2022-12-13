@@ -1,0 +1,32 @@
+.star-1{
+  position: relative;
+  left: 113%;
+}
+.star-2{
+  position: relative;
+  left: 120%;
+}
+
+.box-homepage{
+  position: relative;
+  top: 25rem;
+  /* right: 14rem; */
+  right: 9rem;
+  height: 10rem;
+  width: auto;
+}
+.team-heading{
+  margin-top: 5% !important;
+  margin-bottom: 5%;
+}
+@media screen and (max-device-width: 700px) {
+  .star-1{
+    display: none;
+  }
+  .star-2{
+    display: none;
+  }
+  .homepage-image{
+    display: none;
+  }
+}
