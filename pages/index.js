@@ -13,20 +13,25 @@ import AboutUs from './component/AboutUs'
 import Slider from './component/Testimonail'
 import OurTeam from './component/OurTeam'
 import Images from './component/Images'
+import Gallery from './component/Gallery'
 
 export default function Home() {
   return (
     <>
       <Homepage />
-      <Images />
+      {/* <Images /> */}
       <OurServices />
+
+      {/* 
       <AboutUs />
       <Work />
-      {/* <Testimonail /> */}
+      <Testimonail />
       <Slider />
       <OurTeam />
       <ContactUs />
-      <FooterWebsite />
+      <Gallery />
+
+      <FooterWebsite /> */}
     </>
   )
 }
