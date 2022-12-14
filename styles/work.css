@@ -1,6 +1,11 @@
 .bgclr{
-    /* background-color: #305348 !important; */
-    background: linear-gradient(180deg, #F6F6F6 60%, #305349 60%);
-
+    background-color: #305348 !important;
+    /* background: linear-gradient(180deg, #F6F6F6 60%, #305349 60%); */
 }
-  
+.about-image{
+    height: 600px !important;
+}
+.work-position{
+    position: relative;
+    margin-bottom: 10% !important;
+}

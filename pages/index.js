@@ -22,7 +22,6 @@ export default function Home() {
       {/* <Images /> */}
       <OurServices />
       <AboutUs />
-      <Work />
       <OurTeam />
       <Slider />
       <ContactUs />

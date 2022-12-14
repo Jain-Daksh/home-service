@@ -13,5 +13,15 @@
     padding-left: auto;
     padding-right: auto;
   }
-
+  .about-image{
+    display: none;
+  }
+  
+}
+@media screen and (max-device-width: 480px) {
+  .homepage-text{
+    font-size: 2.5rem !important;
+  }
+  
+  
 }

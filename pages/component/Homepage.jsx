@@ -13,7 +13,7 @@ import Images from './Images'
 import Heading from './Heading'
 
 const Title = (props) => {
-  return <h3 className="text-6xl font-normal tracking-wide	 mb-3.5">{props.title}</h3>;
+  return <h3 className="text-6xl homepage-text font-normal tracking-wide	 mb-3.5">{props.title}</h3>;
 };
 const Content = (props) => {
   return <p className="text-lg  text-zinc-500">{props.content}</p>;
@@ -78,7 +78,7 @@ const Homepage = () => {
               <Title title="Professional" />
               <Title title="cleaning services" />
               {/* <Title title="in Udaipur" /> */}
-              <h3 className='text-6xl font-normal tracking-wide	 mb-3.5'>in <span className='text-primary-color text-decoration-line: underline underline-offset-8'>Udaipur</span></h3>
+              <h3 className='text-6xl sm:text-sm font-normal tracking-wide	 mb-3.5'>in <span className='text-primary-color text-decoration-line: underline underline-offset-8'>Udaipur</span></h3>
             </div>
             <div className='mt-7'>
               <Content content="While you are doing something important, we will " />
