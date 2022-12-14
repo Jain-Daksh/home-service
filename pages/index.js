@@ -21,9 +21,9 @@ export default function Home() {
       <Homepage />
       {/* <Images /> */}
       <OurServices />
+      <AboutUs />
 
       {/* 
-      <AboutUs />
       <Work />
       <Testimonail />
       <Slider />

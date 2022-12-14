@@ -64,6 +64,7 @@ import Heading from './Heading'
 import SubHeading from './SubHeading'
 import Image1 from '../../assets/images/toilet (2).png';
 import ImageContainer from './ImageContainer';
+import Image from 'next/image';
 
 const OurServices = () => {
 
@@ -119,7 +120,7 @@ const OurServices = () => {
               service.map((value) => (
                 <div class=" p-8 rounded-lg hover:bg-white">
                   <div className='relative mx-auto w-full'>
-                    <ImageContainer src={Image1} />
+                    <Image alt='service-image' src={Image1} className="w-12 h-12" />
                     <h5 class="mb-2 text-2xl mt-4  font-semibold tracking-tight text-primary-color">{value.name}</h5>
                     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">{value.description}</p>
                   </div>
