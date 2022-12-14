@@ -254,9 +254,10 @@ import SubHeading from './SubHeading'
 
 const Testimonail = () => {
   return (
-    <section>
+      <section className='section'>
       <div className='container-fluid'>
-        <div className=" lg:px-24">
+        <div className=" py-18 sm:px-8 lg:pt-8 lg:px-24">
+        <div className="">
           <Heading title='REVIEWS' />
           <SubHeading subHeading="The best client are our client !" />
           <section className="mb-32 mt-24 text-gray-800 text-center">
@@ -442,7 +443,8 @@ const Testimonail = () => {
 
         </div>
       </div>
-    </section>
+        </div>
+    </section >  
   )
 }
 

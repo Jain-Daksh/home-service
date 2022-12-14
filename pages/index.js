@@ -22,16 +22,18 @@ export default function Home() {
       {/* <Images /> */}
       <OurServices />
       <AboutUs />
+      <Work />
+      <OurTeam />
+      <Slider />
+      <ContactUs />
 
+      <FooterWebsite />
       {/* 
       <Work />
       <Testimonail />
-      <Slider />
       <OurTeam />
-      <ContactUs />
       <Gallery />
-
-      <FooterWebsite /> */}
+ */}
     </>
   )
 }

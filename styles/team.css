@@ -7,7 +7,11 @@
 
 @media screen and (max-device-width: 630px) {
   .bg-team{
-    background-color: #FCE074
+    background-color: #FCE074 !important;
+  }
+  .text-padding{
+    padding-left: auto;
+    padding-right: auto;
   }
 
 }

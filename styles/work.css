@@ -1,5 +1,6 @@
 .bgclr{
-    background-color: #305348 !important;
-    top: -189px
+    /* background-color: #305348 !important; */
+    background: linear-gradient(180deg, #F6F6F6 60%, #305349 60%);
+
 }
   

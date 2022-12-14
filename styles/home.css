@@ -2,35 +2,29 @@
   position: relative;
   left: 113%;
 }
-
 .star-2 {
   position: relative;
   left: 120%;
 }
-
 .circle {
   position: relative;
   left: 120%;
 }
 .section{
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%
 }
 
 .box-homepage {
-  /* position: relative;
-  top: 25rem;
-  right: 14rem;
-  right: 9rem;
-  height: 10rem;
-  width: auto; */
   position: absolute;
-  /* left: 108%; */
   left: 66%;
   top: 74%;
 }
 
 
+.image-aboutus{
+  width: 50%;
+}
 
 .team-heading {
   margin-top: 5% !important;
