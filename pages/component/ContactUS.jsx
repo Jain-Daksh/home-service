@@ -316,8 +316,8 @@ const ContactUs = () => {
             </div>
           </div>
         </footer> */}
-        <footer aria-label="Site Footer" class="bg-white">
-          <div class="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
+        <footer aria-label="Site Footer">
+          <div class="mx-auto max-w-screen-xl px-4  pb-6 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
               <div>
                 <div class="flex justify-center text-teal-600 sm:justify-start">
@@ -409,7 +409,7 @@ const ContactUs = () => {
                 class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 lg:col-span-2"
               >
                 <div class="text-center sm:text-left">
-                  <p class="text-lg font-medium text-gray-900">About Us</p>
+                  <p class="text-lg font-medium text-teal-600">About Us</p>
 
                   <nav aria-label="Footer About Nav" class="mt-8">
                     <ul class="space-y-4 text-sm">
@@ -446,7 +446,7 @@ const ContactUs = () => {
                 </div>
 
                 <div class="text-center sm:text-left">
-                  <p class="text-lg font-medium text-gray-900">Our Services</p>
+                  <p class="text-lg font-medium text-teal-600">Our Services</p>
 
                   <nav aria-label="Footer Services Nav" class="mt-8">
                     <ul class="space-y-4 text-sm">
@@ -491,7 +491,7 @@ const ContactUs = () => {
                 </div>
 
                 {/* <div class="text-center sm:text-left">
-                  <p class="text-lg font-medium text-gray-900">Helpful Links</p>
+                  <p class="text-lg font-medium text-teal-600">Helpful Links</p>
 
                   <nav aria-label="Footer Helpful Nav" class="mt-8">
                     <ul class="space-y-4 text-sm">
@@ -539,7 +539,7 @@ const ContactUs = () => {
                 </div> */}
 
                 <div class="text-center sm:text-left">
-                  <p class="text-lg font-medium text-gray-900">Contact Us</p>
+                  <p class="text-lg font-medium text-teal-600">Contact Us</p>
 
                   <ul class="mt-8 space-y-4 text-sm">
                     <li>
