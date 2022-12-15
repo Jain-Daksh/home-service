@@ -7,13 +7,27 @@
 
 }
 .about-image{
-    height: 600px !important;
+    /* height: 790px !important;
+    width: 76% !important;
+    z-index: 999; */
+    width: 34%;
+    height: 600px;
+    z-index: 1;
 }
 .about-us2{
     position: relative;
-    left: 23%;
+    left: 33%;
+    z-index: 1 !important;
 }
 .work-position{
     position: relative;
-    margin-bottom: 10% !important;
+    /* margin-bottom: 10% !important; */
+    margin-top: -19%;
+}
+.work-heading{
+    margin-top: 120px;
+}
+/*  */
+.light-green{
+    background-color: #365B51 !important
 }

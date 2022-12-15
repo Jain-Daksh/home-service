@@ -55,7 +55,7 @@ const OurTeam = () => {
               <div class="mx-auto grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pb-8">
                 {
                   team.map((value) => (
-                    <div class="relative bg-white py-6 px-6  w-64 my-4 shadow-xl">
+                    <div class="relative mx-auto bg-white py-6 px-6  w-64 my-4 shadow-xl">
                       <div class="flex justify-between">
                         <div class="my-2">
                           <div class=" space-x-2">

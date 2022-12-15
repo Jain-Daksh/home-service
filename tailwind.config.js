@@ -16,6 +16,7 @@ module.exports = {
 				'primary-color': '#305349',
 				'secondary-color': '#FCE074',
 				'gray-color': '#d9dbe0',
+				'light-green-color' : "#365B51"
 			},
 			width: {
 				'500': '500px',

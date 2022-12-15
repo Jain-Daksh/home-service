@@ -159,7 +159,7 @@ const Nav = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="flex text-secondary-color font-normal	 flex-col pt-4 pb-5 px-6 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-normal md:border-0">
+            <ul className="flex  font-normal	 flex-col pt-4 pb-5 px-6 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-normal md:border-0">
               <MenuItem label="Home" link="#home" />
               <MenuItem label="Services" link="#services"></MenuItem>
               <MenuItem label="About US" link="#aboutus" />

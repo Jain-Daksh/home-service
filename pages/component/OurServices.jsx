@@ -2,14 +2,14 @@ import React from 'react'
 import Button from './button'
 import Heading from './Heading'
 import SubHeading from './SubHeading'
-import Image1 from '../../assets/images/sofa.png';
+import Image1 from '../../assets/images/sofa (2).png';
 
 import ImageContainer from './ImageContainer';
 import Image from 'next/image';
-import Image2 from '../../assets/images/office-furniture.png';
-import Image3 from '../../assets/images/laundry.png';
-import Image4 from '../../assets/images/office-furniture (1).png';
-
+import Image4 from '../../assets/images/cleaning (2).png';
+import Image3 from '../../assets/images/machine-cleaning.png';
+import Image2 from '../../assets/images/vacuum-cleaner.png';
+// 
 const OurServices = () => {
 
   const service = [
@@ -72,12 +72,10 @@ const OurServices = () => {
               ))
             }
           </div>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
           <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-        </svg>
+        </svg> */}
         </div>
-        
-
       </div >
     </section >
   )

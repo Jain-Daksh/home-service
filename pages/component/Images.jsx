@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Image1 from '../../assets/images/client1.png'
+import Image1 from '../../assets/images/pngfind.com-shazam-png-1427092.png'
 import ImageContainer from './ImageContainer'
 
 const Images = () => {

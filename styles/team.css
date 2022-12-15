@@ -1,7 +1,7 @@
 .bg-team{
   /* background-color: #FCE074 !important; 
   */
-  background: linear-gradient(180deg, #FCE074 60%, #FFFFFF 60%);
+  background: linear-gradient(180deg, #FCE074 60%, #F6F6F6 60%);
 
 }
 
@@ -23,5 +23,20 @@
     font-size: 2.5rem !important;
   }
   
+  
+}
+@media screen and (max-device-width: 1024px) {
+  .about-image{
+    display: none;
+  }
+  .about-us2{
+    position: relative;
+    left:0%;
+    height: 65% !important;
+    z-index: 1 !important;
+}
+work-heading {
+  margin-top: 146px;
+}
   
 }

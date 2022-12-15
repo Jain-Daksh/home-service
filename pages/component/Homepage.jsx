@@ -10,6 +10,7 @@ import Image4 from '../../assets/images/circle.png'
 import Image3 from '../../assets/images/homepage3.png'
 import Images from './Images'
 import Heading from './Heading'
+import Whatsapp from '../../assets/images/whatsapp (1).png'
 
 const Title = (props) => {
   return <h3 className="text-6xl homepage-text font-normal tracking-wide mb-3.5">{props.title}</h3>;
@@ -128,6 +129,11 @@ const Homepage = () => {
           </div> */}
         </div>
         <Images />      
+      </div>
+      <div class="icon-bar">
+        <a href="https://api.whatsapp.com/send?phone=919928845025" class="floating whatsapp whatsapp-img" target="_blank">
+          <Image src={Whatsapp} className="whatsapp-img" />
+        </a>
       </div>
     </section>
   )
