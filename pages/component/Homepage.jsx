@@ -7,13 +7,12 @@ import SubHeading from './SubHeading'
 import Button from './button'
 import Image2 from '../../assets/images/icons8-starburst-shape-48.png'
 import Image4 from '../../assets/images/circle.png'
-// import Image3 from '../../assets/images/a211ce69-8ed9-4124-953b-a1f1681775a3.png'
 import Image3 from '../../assets/images/homepage3.png'
 import Images from './Images'
 import Heading from './Heading'
 
 const Title = (props) => {
-  return <h3 className="text-6xl homepage-text font-normal tracking-wide	 mb-3.5">{props.title}</h3>;
+  return <h3 className="text-6xl homepage-text font-normal tracking-wide mb-3.5">{props.title}</h3>;
 };
 const Content = (props) => {
   return <p className="text-lg  text-zinc-500">{props.content}</p>;
@@ -78,7 +77,7 @@ const Homepage = () => {
               <Title title="Professional" />
               <Title title="cleaning services" />
               {/* <Title title="in Udaipur" /> */}
-              <h3 className='text-6xl sm:text-sm font-normal tracking-wide	 mb-3.5'>in <span className='text-primary-color text-decoration-line: underline underline-offset-8'>Udaipur</span></h3>
+              <h3 className='xl:text-6xl lg:text-5xl md:text-5xl sm:text-5xl xs:text-4xl font-normal tracking-wide mb-3.5'>in <span className='text-primary-color text-decoration-line: underline underline-offset-8'>Udaipur</span></h3>
             </div>
             <div className='mt-7'>
               <Content content="While you are doing something important, we will " />

@@ -1,6 +1,6 @@
 import React from 'react'
 function SubHeading(props) {
-  const { classes = "max-w-2xl mb-4 text-5xl tracking-tight leading-none md:text-5xl xl:text-4xl sm:items-center sm:text-sm	" } = props;
+  const { classes = "max-w-2xl mb-4 text-6xl tracking-tight leading-none md:text-5xl xl:text-6xl sm:items-center sm:text-sm	" } = props;
 
   return (
     <h2 className={classes}>
