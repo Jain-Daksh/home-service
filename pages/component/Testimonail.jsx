@@ -256,7 +256,7 @@ const Testimonail = () => {
   return (
       <section className='section'>
       <div className='container-fluid'>
-        <div className=" py-18 sm:px-8 lg:pt-8 lg:px-24">
+        <div className=" py-18 sm:px-8  lg:px-24">
         <div className="">
           <Heading title='REVIEWS' />
           <SubHeading subHeading="The best client are our client !" />

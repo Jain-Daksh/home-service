@@ -58,7 +58,6 @@ const OurTeam = () => {
                     <div class="relative bg-white py-6 px-6  w-64 my-4 shadow-xl">
                       <div class="flex justify-between">
                         <div class="my-2">
-                          <p class="font-semibold text-base mb-2">Team Member</p>
                           <div class=" space-x-2">
                             <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                               class="w-12 h-12 rounded-full" />

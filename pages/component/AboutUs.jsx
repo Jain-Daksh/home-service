@@ -122,7 +122,7 @@ import Work from './Work'
 
 const AboutUs = () => {
   return (
-    <section className='section'>
+    <section className='section about-us-color'>
       <div>
         <div className='container-fluid'>
           <div className=" py-18 sm:px-8 lg:py-8 lg:px-24">
@@ -139,15 +139,15 @@ const AboutUs = () => {
                   <p className='text-xl text-zinc-500 mt-10'>Our company has been providing professional cleaning services to residents of Minsk region for more than 7 years.Cleaning of aparments,offices and other premises after repair is a direction in which our employees have gained extensive experience</p>
                 </div>
                 <div className=''>
-                  <Image src={Image1} className="w-4/6  h-4/5 mt-24" />
+                  <Image src={Image1} className="w-4/6  h-4/5 mt-24 about-us2" />
                 </div>
               </div>
             </div>
           </div >
+
         </div>
-      </div>
-      <div className=' bgclr work-position'>
-      <div className='container-fluid '>
+        <div className='   '>
+      <div className='container-fluid work-position bgclr'>
           <div className=" py-18 sm:px-8 lg:py-8 lg:px-24">
 
             <div className='grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12'>
@@ -208,6 +208,8 @@ const AboutUs = () => {
           </div >
         </div>
       </div >
+      </div>
+      
 
     </section>
   )

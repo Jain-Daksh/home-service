@@ -2,8 +2,16 @@
     background-color: #305348 !important;
     /* background: linear-gradient(180deg, #F6F6F6 60%, #305349 60%); */
 }
+.about-us-color{
+    background: linear-gradient(180deg, #F6F6F6 40%, #305349 40%); 
+
+}
 .about-image{
     height: 600px !important;
+}
+.about-us2{
+    position: relative;
+    left: 23%;
 }
 .work-position{
     position: relative;

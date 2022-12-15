@@ -2,36 +2,40 @@ import React from 'react'
 import Button from './button'
 import Heading from './Heading'
 import SubHeading from './SubHeading'
-import Image1 from '../../assets/images/toilet (2).png';
+import Image1 from '../../assets/images/sofa.png';
+
 import ImageContainer from './ImageContainer';
 import Image from 'next/image';
+import Image2 from '../../assets/images/office-furniture.png';
+import Image3 from '../../assets/images/laundry.png';
+import Image4 from '../../assets/images/office-furniture (1).png';
 
 const OurServices = () => {
 
   const service = [
     {
       "id": 1,
-      "name": "abc",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aut neque distinctio cum necessitatibus enim tenetur quo rerum, facilis velit!",
+      "name": "Housewares Services",
+      "description": "You fill out an application on the site or contact us in a way convenient for you (phone, e- mail, instant messenger)",
       "image": Image1
     },
     {
       "id": 2,
-      "name": "abc",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aut neque distinctio cum necessitatibus enim tenetur quo rerum, facilis velit!",
-      "image": Image1
+      "name": "Office space cleaning",
+      "description": "You fill out an application on the site or contact us in a way convenient for you (phone, e- mail, instant messenger)",
+      "image": Image2
     },
     {
       "id": 3,
-      "name": "abc",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aut neque distinctio cum necessitatibus enim tenetur quo rerum, facilis velit!",
-      "image": Image1
+      "name": "Maintenance Service",
+      "description": "You fill out an application on the site or contact us in a way convenient for you (phone, e- mail, instant messenger)",
+      "image": Image3
     },
     {
       "id": 4,
-      "name": "abc",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aut neque distinctio cum necessitatibus enim tenetur quo rerum, facilis velit!",
-      "image": Image1
+      "name": "Commercial cleaning",
+      "description": "You fill out an application on the site or contact us in a way convenient for you (phone, e- mail, instant messenger)",
+      "image": Image4
     }
   ]
 
@@ -60,7 +64,7 @@ const OurServices = () => {
               service.map((value) => (
                 <div class=" p-8 rounded-lg hover:bg-white">
                   <div className='relative mx-auto w-full'>
-                    <Image alt='service-image' src={Image1} className="w-12 h-12" />
+                    <Image alt='service-image' src={value.image} className="w-12 h-12" />
                     <h5 class="mb-2 text-2xl mt-4  font-semibold tracking-tight text-primary-color">{value.name}</h5>
                     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">{value.description}</p>
                   </div>
