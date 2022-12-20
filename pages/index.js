@@ -14,15 +14,22 @@ import Slider from './component/Testimonail'
 import OurTeam from './component/OurTeam'
 import Images from './component/Images'
 import Gallery from './component/Gallery'
-
+import seoDetails from './SeoDetails.json'
 export default function Home() {
   return (
     <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(seoDetails) }}
+        />
+
+      </Head>
       <Homepage />
       {/* <Images /> */}
       <OurServices />
       <AboutUs />
-      
+
       <Slider />
       <OurTeam />
       <ContactUs />
